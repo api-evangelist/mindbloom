@@ -1,8 +1,26 @@
 aid: mindbloom
 name: Mindbloom
-description: Mindbloom is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Mindbloom is a direct-to-consumer telehealth company offering at-home ketamine-assisted
+  therapy for anxiety, depression, and PTSD, combining psychiatric clinician oversight, guided
+  therapeutic sessions, and peer support. Clients complete a psychiatric evaluation, receive
+  either sublingual tablets or subcutaneous injectable treatments, and are supported through
+  a structured program with monitoring and integration guidance. The company reports having
+  facilitated over 200,000 ketamine therapy sessions. Surfaced as a portfolio company of 8vc
+  and added to the API Evangelist network; enrichment found no public API, developer platform,
+  or developer documentation — Mindbloom is a consumer healthcare service, not an API provider.
 url: https://raw.githubusercontent.com/api-evangelist/mindbloom/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/63a1c97b43b15d4c89e1c2c4/63a2602dfe5e826ce7fb5e0d_open-graph_mindbloom.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Health
+- Telehealth
+- Mental Health
+- Healthcare
+- Wellness
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mindbloom-domain-security.yml
 - type: Website
   url: https://mindbloom.com
+- type: Blog
+  url: https://mindbloom.com/blog
+- type: Pricing
+  url: https://mindbloom.com/pricing
+- type: TermsOfService
+  url: https://mindbloom.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://mindbloom.com/privacy-policy
+- type: Support
+  url: https://help-center.mindbloom.com/en/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
